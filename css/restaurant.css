@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+
+html, body {
+ margin: 0;
+ margin-bottom: 0;
+ padding: 0;
+ overflow-x:hidden;
+ }
+
+/* div{
+  border: 1px solid transparent ;
+} */
+
+#mainContainer{
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.bloc-Gauche {
+  width: 10%;
+  height: 90px
+
+}
+
+.bloc-Gauche img {
+  margin-left: 50px;
+}
+
+.bloc-Fixe{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px
+}
+
+header li {
+  list-style: none;
+  display: inline;
+  padding: 20px;
+  margin-right: 90px;
+}
+
+header a {
+  text-decoration: none;
+  color: #404040 ;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+header a:hover {
+  color: #B7A680
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+#mainblock1{
+  display: flex;
+}
+
+#blocImage {
+  margin-top: 50px;
+}
+
+#blocImage p {
+  text-align: center;
+  z-index: 200;
+}
+
+.menu-block1 {
+  margin-left: 200px;
+  width: 157px;
+  height: 270px;
+  margin-top: 0px;
+}
+
+#Le2{
+  color: #B7A680;
+  font-family: 'Prata', serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+#para2 {
+  color: #404040;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight:900;
+  margin-top: -120px;
+  font-size: 50px;
+}
+
+.bloc-menu {
+  display: flex;
+  width: 55%;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+
+.draw {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.para-block {
+  text-align: center;
+}
+
+.menu-block2 {
+  margin-left: 200px;
+  width: 180px;
+  height: 270px;
+  margin-top: 0px;
+}
+
+footer {
+  background-color: #404040;
+  height: 100px;
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+}
+
+footer p {
+  color: #B7A680;
+  font-size: 14px;
+}
+
+.foot1 {
+  height: 99px;
+  align-items:center;
+}
+
+.foot2 {
+  align-items: center;
+}
+
+hr {
+  width: 400px;
+  color: #404040;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
